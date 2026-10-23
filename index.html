@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>mini project</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <section>
+      <nav>
+        <div class="logo">
+          <img src="./assets/fes-logo.png" alt="fes logo" class="logo__img" />
+          <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#social">Social</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <header>
+        <div class="row row__course">
+          <div class="course">
+            <h1 class="course__icon">💾</h1>
+            <div class="course__text">
+              <div class="course__selection">---- Your Course ----</div>
+              <div class="course__title">Software Engineering</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="hero">
+            <figure class="hero__img--wrapper">
+              <img
+                src="./assets/laptop.png"
+                alt="hero image of a person sitting at a desk with a laptop"
+                class="hero__img"
+              />
+            </figure>
+            <div class="hero__description">
+              <p>Best place to learn frontend</p>
+              <p class="subheader">
+                Go from absolute beginner to pro with a simplified process
+              </p>
+              <a href="#about">
+                <button class="hero__description--button">▷ Learn More</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- MAIN -->
+    <main>
+      <!-- ABOUT -->
+      <section id="about">
+        <div class="row about__row">
+          <div class="section__card section__card--about">
+            <h1 class="section__title">About</h1>
+            <div class="section__description">
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  Frontend Simplified is a free, open-source platform that
+                  teaches you how to build beautiful websites from scratch. We
+                  believe that learning frontend development should be simple
+                  and accessible to everyone.
+                </p>
+                <p class="section__description--para">
+                  The platform is designed to be beginner-friendly, with a focus
+                  on practical, hands-on learning. You'll learn by building
+                  real-world projects, and you'll have access to a supportive
+                  community of learners and mentors who can help you along the
+                  way.
+                </p>
+              </div>
+              <figure class="section__img--wrapper">
+                <img
+                  src="./assets/reading.png"
+                  alt="Two friends reading a map"
+                  class="section__img"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOCIAL -->
+      <section id="social">
+        <div class="row social__row">
+          <div class="section__card section__card--social">
+            <h1 class="section__title">Social</h1>
+            <div class="section__description">
+              <figure class="section__img--wrapper">
+                <img
+                  src="./assets/social.png"
+                  alt="Two friends creating a website layout"
+                  class="section__img"
+                />
+              </figure>
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  Welcome to the Social section of Frontend Simplified! Here,
+                  you'll find a vibrant community of learners and mentors who
+                  are passionate about frontend development. Whether you're just
+                  starting out or looking to level up your skills, our community
+                  is here to support you every step of the way.
+                </p>
+                <p class="section__description--para">
+                  Need a mentor? Our experienced mentors are available to
+                  provide guidance, answer your questions, and help you navigate
+                  the world of frontend development. You can connect with
+                  mentors through our community forums, live chat, or scheduled
+                  mentorship sessions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact">
+        <div class="row contact__row">
+          <div class="section__card section__card--contact">
+            <h1 class="section__title">Contact</h1>
+            <div class="section__description">
+              <div class="section__description--wrapper">
+                <p class="section__description--para">
+                  Have questions or want to get in touch? We'd love to hear from
+                  you!
+                </p>
+                <p class="section__description--para">
+                  You can reach us through our contact form, email, or social
+                  media channels.
+                </p>
+              </div>
+              <form action="">
+                <span>Email</span>
+                <input type="email" placeholder="john@example.com" />
+                <span>Message</span>
+                <textarea
+                  type="text"
+                  placeholder="Enter your message here..."
+                ></textarea>
+                <button type="submit">Contact Us</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="logo footer__logo">
+        <img src="./assets/fes-logo.png" alt="fes logo" class="logo__img" />
+        <h1 class="logo__text"><b>Frontend</b> Simplified</h1>
+      </div>
+      <div class="footer__links">
+        <a href="#about" class="footer__link">About</a>
+        <a href="#social" class="footer__link">Social</a>
+        <a href="#contact" class="footer__link">Contact</a>
+        <a href="#" class="footer__link">Courses</a>
+      </div>
+      <p class="footer__copyright">
+        &copy; 2024 Frontend Simplified. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
